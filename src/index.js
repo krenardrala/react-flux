@@ -6,6 +6,7 @@ import Weather from './container/Weather';
 
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 
+
 ReactDOM.render(
   <Router>
     <div>
