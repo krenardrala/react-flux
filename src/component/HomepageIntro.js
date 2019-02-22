@@ -42,7 +42,6 @@ class HomepageIntro extends Component {
         personalDetails: PersonalDetailsStore.getAll()
       });
     })
-    PersonalDetailsActions.getWeather("London");
   }
 
   componentWillUnmount() {

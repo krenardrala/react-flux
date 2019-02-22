@@ -24,7 +24,6 @@ class PersonalDetailsStore extends EventEmitter {
   }
 
   handleActions(action) {
-    console.log('PersonalDetailsStore recived an action', action);
     if (action.type === "ADD_PERSON") {
       this.addPerson(action.data);
     }
