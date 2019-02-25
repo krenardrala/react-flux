@@ -39,3 +39,16 @@ it('should be possible to activate button with Spacebar', () => {
   expect(component).toMatchSnapshot();
   component.unmount();
 });
+
+it("should create an entry in component state", () => {
+  // given
+  const component = shallow(<Weather />);
+  const form = component.find('Input');
+  // when
+  form.props().onChange({target: {
+    name: 'cityName',
+    value: 'cityName'
+  }});
+  // then
+  expect(component.state('cityName')).toEqual('cityName');
+});

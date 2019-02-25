@@ -3,7 +3,6 @@ import {
   Responsive
 } from 'semantic-ui-react'
 
-import MainHeader from '../component/Header';
 import HomepageIntro from '../component/HomepageIntro';
 import HomepageGrid from '../component/HomepageGrid';
 import Footer from '../component/Footer';

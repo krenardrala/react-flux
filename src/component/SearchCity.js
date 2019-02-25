@@ -18,8 +18,6 @@ class SearchCity extends Component {
     }
   }
 
-
-
   render() {
     if(this.state.weather.length > 0) {
       const weatherComponent = this.state.weather.map((weather) => {
@@ -36,7 +34,6 @@ class SearchCity extends Component {
             <Item.Extra>
               <p><Icon color='blue' name='thermometer empty' />Min Temp: <b>{Math.floor(weather.data.main.temp_min)}&deg;C</b></p>
               <p><Icon color='red' name='thermometer full' />Max Temp: <b>{Math.floor(weather.data.main.temp_max)}&deg;C</b></p>
-
             </Item.Extra>
           </Item.Content>
         </Item>
