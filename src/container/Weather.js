@@ -50,7 +50,6 @@ class Weather extends Component {
   render() {
     return(
       <Responsive>
-        <MainHeader/>
         <Container fluid style={{minHeight: '650px', paddingTop: '100px'}}>
           <Grid columns={2} padded='vertically'>
             <Grid.Column textAlign="center">

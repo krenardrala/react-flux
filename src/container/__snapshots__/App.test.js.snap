@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly in "debug" mode 1`] = `
+<Responsive
+  getWidth={[Function]}
+>
+  <HomepageIntro />
+  <HomepageIntro />
+  <Footer />
+</Responsive>
+`;
+
+exports[`Weather should render correctly in "debug" mode 1`] = `
+<Responsive
+  getWidth={[Function]}
+>
+  <Container
+    fluid={true}
+    style={
+      Object {
+        "minHeight": "650px",
+        "paddingTop": "100px",
+      }
+    }
+  >
+    <Grid
+      columns={2}
+      padded="vertically"
+    >
+      <GridColumn
+        textAlign="center"
+      >
+        <Input
+          icon="search"
+          name="cityName"
+          onChange={[Function]}
+          placeholder="Search..."
+          size="big"
+          type="text"
+        />
+        <Button
+          as="button"
+          color="teal"
+          onClick={[Function]}
+          size="big"
+          style={
+            Object {
+              "marginLeft": "15px",
+            }
+          }
+        >
+          Search
+        </Button>
+      </GridColumn>
+      <GridColumn>
+        <SearchCity
+          weather={Array []}
+        />
+      </GridColumn>
+    </Grid>
+  </Container>
+  <Footer />
+</Responsive>
+`;
+
+exports[`should be possible to activate button with Spacebar 1`] = `
+<Weather>
+  <Responsive
+    getWidth={[Function]}
+  >
+    <div>
+      <Container
+        fluid={true}
+        style={
+          Object {
+            "minHeight": "650px",
+            "paddingTop": "100px",
+          }
+        }
+      >
+        <div
+          className="ui fluid container"
+          style={
+            Object {
+              "minHeight": "650px",
+              "paddingTop": "100px",
+            }
+          }
+        >
+          <Grid
+            columns={2}
+            padded="vertically"
+          >
+            <div
+              className="ui vertically padded two column grid"
+            >
+              <GridColumn
+                textAlign="center"
+              >
+                <div
+                  className="center aligned column"
+                >
+                  <Input
+                    icon="search"
+                    name="cityName"
+                    onChange={[Function]}
+                    placeholder="Search..."
+                    size="big"
+                    type="text"
+                  >
+                    <div
+                      className="ui big icon input"
+                    >
+                      <input
+                        name="cityName"
+                        onChange={[Function]}
+                        placeholder="Search..."
+                        type="text"
+                      />
+                      <Icon
+                        as="i"
+                        name="search"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="search icon"
+                          onClick={[Function]}
+                        />
+                      </Icon>
+                    </div>
+                  </Input>
+                  <Button
+                    as="button"
+                    color="teal"
+                    onClick={[Function]}
+                    size="big"
+                    style={
+                      Object {
+                        "marginLeft": "15px",
+                      }
+                    }
+                  >
+                    <button
+                      className="ui teal big button"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "marginLeft": "15px",
+                        }
+                      }
+                    >
+                      Search
+                    </button>
+                  </Button>
+                </div>
+              </GridColumn>
+              <GridColumn>
+                <div
+                  className="column"
+                >
+                  <SearchCity
+                    weather={Array []}
+                  />
+                </div>
+              </GridColumn>
+            </div>
+          </Grid>
+        </div>
+      </Container>
+      <Footer>
+        <Segment
+          inverted={true}
+          style={
+            Object {
+              "padding": "5em 0em",
+            }
+          }
+          vertical={true}
+        >
+          <div
+            className="ui inverted vertical segment"
+            style={
+              Object {
+                "padding": "5em 0em",
+              }
+            }
+          >
+            <Container>
+              <div
+                className="ui container"
+              >
+                <Grid
+                  divided={true}
+                  inverted={true}
+                  stackable={true}
+                >
+                  <div
+                    className="ui inverted stackable divided grid"
+                  >
+                    <GridRow>
+                      <div
+                        className="row"
+                      >
+                        <GridColumn
+                          width={3}
+                        >
+                          <div
+                            className="three wide column"
+                          >
+                            <Header
+                              as="h4"
+                              content="About"
+                              inverted={true}
+                            >
+                              <h4
+                                className="ui inverted header"
+                              >
+                                About
+                              </h4>
+                            </Header>
+                            <List
+                              inverted={true}
+                              link={true}
+                            >
+                              <div
+                                className="ui inverted link list"
+                                role="list"
+                              >
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    Sitemap
+                                  </a>
+                                </ListItem>
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    Contact Us
+                                  </a>
+                                </ListItem>
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    Religious Ceremonies
+                                  </a>
+                                </ListItem>
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    Gazebo Plans
+                                  </a>
+                                </ListItem>
+                              </div>
+                            </List>
+                          </div>
+                        </GridColumn>
+                        <GridColumn
+                          width={3}
+                        >
+                          <div
+                            className="three wide column"
+                          >
+                            <Header
+                              as="h4"
+                              content="Services"
+                              inverted={true}
+                            >
+                              <h4
+                                className="ui inverted header"
+                              >
+                                Services
+                              </h4>
+                            </Header>
+                            <List
+                              inverted={true}
+                              link={true}
+                            >
+                              <div
+                                className="ui inverted link list"
+                                role="list"
+                              >
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    Banana Pre-Order
+                                  </a>
+                                </ListItem>
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    DNA FAQ
+                                  </a>
+                                </ListItem>
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    How To Access
+                                  </a>
+                                </ListItem>
+                                <ListItem
+                                  as="a"
+                                >
+                                  <a
+                                    className="item"
+                                    onClick={[Function]}
+                                    role="listitem"
+                                  >
+                                    Favorite X-Men
+                                  </a>
+                                </ListItem>
+                              </div>
+                            </List>
+                          </div>
+                        </GridColumn>
+                        <GridColumn
+                          width={7}
+                        >
+                          <div
+                            className="seven wide column"
+                          >
+                            <Header
+                              as="h4"
+                              inverted={true}
+                            >
+                              <h4
+                                className="ui inverted header"
+                              >
+                                Footer Header
+                              </h4>
+                            </Header>
+                            <p>
+                              Extra space for a call to action inside the footer that could help re-engage users.
+                            </p>
+                          </div>
+                        </GridColumn>
+                      </div>
+                    </GridRow>
+                  </div>
+                </Grid>
+              </div>
+            </Container>
+          </div>
+        </Segment>
+      </Footer>
+    </div>
+  </Responsive>
+</Weather>
+`;
+
+exports[`should render correctly with no props 1`] = `
+<Responsive
+  getWidth={[Function]}
+>
+  <HomepageIntro />
+  <HomepageIntro />
+  <Footer />
+</Responsive>
+`;
+
+exports[`should render correctly with no props 2`] = `
+<Responsive
+  getWidth={[Function]}
+>
+  <Container
+    fluid={true}
+    style={
+      Object {
+        "minHeight": "650px",
+        "paddingTop": "100px",
+      }
+    }
+  >
+    <Grid
+      columns={2}
+      padded="vertically"
+    >
+      <GridColumn
+        textAlign="center"
+      >
+        <Input
+          icon="search"
+          name="cityName"
+          onChange={[Function]}
+          placeholder="Search..."
+          size="big"
+          type="text"
+        />
+        <Button
+          as="button"
+          color="teal"
+          onClick={[Function]}
+          size="big"
+          style={
+            Object {
+              "marginLeft": "15px",
+            }
+          }
+        >
+          Search
+        </Button>
+      </GridColumn>
+      <GridColumn>
+        <SearchCity
+          weather={Array []}
+        />
+      </GridColumn>
+    </Grid>
+  </Container>
+  <Footer />
+</Responsive>
+`;

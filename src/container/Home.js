@@ -12,7 +12,6 @@ class HomepageLayout extends Component {
   render() {
     return (
       <Responsive>
-        <MainHeader/>
         <HomepageIntro/>
         <HomepageGrid/>
         <Footer/>
